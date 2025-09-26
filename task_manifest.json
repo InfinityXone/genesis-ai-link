@@ -1,0 +1,8 @@
+{
+  "manifest_version": "0.1",
+  "description": "Task manifest schema for Infinity-X-One",
+  "policies": {
+    "sensitive_actions_require_approval": true,
+    "audit_logging_required": true
+  }
+}
