@@ -1,9 +1,0 @@
-id: agent-test
-type: data_processing
-priority: high
-payload:
-  source: "local://test.csv"
-  operation: "summarize"
-created_by: infinityxone@swarmhq.local
-sensitive: false
-human_approval_required: false

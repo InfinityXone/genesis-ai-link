@@ -1,9 +1,0 @@
-id: gpt-gen-001
-type: data_processing
-priority: low
-payload:
-  source: "gpt://memory/recap.md"
-  operation: "tokenize_and_score"
-created_by: codex@gpt.local
-sensitive: false
-human_approval_required: false

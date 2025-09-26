@@ -1,9 +1,0 @@
-id: task-0001
-type: data_processing
-priority: medium
-payload:
-  source: "local://data/sample.csv"
-  operation: "summarize"
-created_by: operator@example.com
-sensitive: false
-human_approval_required: false
