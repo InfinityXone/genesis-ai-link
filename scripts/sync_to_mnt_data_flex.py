@@ -46,6 +46,7 @@ def loop(interval=5):
     print(f"🔁 Smart Sync running: {PROJECT_ROOT} ⇄ {SYNC_ROOT}")
     while True:
         try:
+            print("📂 Sandbox contents:", list((PROJECT_ROOT / "sandbox").glob("*")))
             full_sync()
         except Exception as e:
             print(f"[sync error] {e}")
